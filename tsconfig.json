@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "rootDir": "./src",
-    "outDir": "./dist/esm",
+    "outDir": "./dist",
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
