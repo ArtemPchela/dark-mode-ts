@@ -5,4 +5,4 @@ const ThemeLibrary: any = () => {
         Theme: Theme
     }
 }
-export default ThemeLibrary()
+ThemeLibrary()
