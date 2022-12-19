@@ -1,3 +1,8 @@
-import Theme from './theme'
+import Theme from './theme';
 
-export { Theme }
+const ThemeLibrary: any = () => {
+    return {
+        Theme: Theme
+    }
+}
+export default ThemeLibrary()

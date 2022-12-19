@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 interface ThemeProps {
   darkIcon?: string
   lightIcon?: string
