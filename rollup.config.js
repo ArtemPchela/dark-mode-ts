@@ -24,11 +24,7 @@ export default {
   plugins: [
     external(),
     resolve(),
-    typescript({
-      // rollupCommonJSResolveHack: true,
-      exclude: "**/__tests__/**",
-      clean: true
-    }),
+    typescript(),
     commonjs({
       include: ["node_modules/**"],
       namedExports: {
