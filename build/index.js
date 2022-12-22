@@ -25,7 +25,7 @@ var Theme = function (_a) {
 
 var ThemeLibrary = function () {
     return {
-        Theme: { Theme: Theme }
+        Theme: Theme
     };
 };
 

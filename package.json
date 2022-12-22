@@ -1,9 +1,10 @@
 {
   "name": "dark-mode-ts",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "React TypeScript dark mode",
   "main": "build/index.js",
   "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
   "files": [
     "build"
   ],
@@ -12,8 +13,7 @@
     "url": "https://github.com/ArtemPchela/dark-mode-ts"
   },
   "scripts": {
-    "build": "rollup -c",
-    "rollup": "rollup -c"
+    "build": "rollup -c"
   },
   "keywords": [
     "dark-mode-ts",
