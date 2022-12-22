@@ -8,6 +8,5 @@ interface ThemeProps {
     imgHeight?: string;
     myClass?: string;
 }
-type Theme = 'dark' | 'light';
-declare const Theme: ({ darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass }: ThemeProps) => JSX.Element;
-export default Theme;
+export declare const Theme: ({ darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass }: ThemeProps) => JSX.Element;
+export {};

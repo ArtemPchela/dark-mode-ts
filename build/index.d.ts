@@ -1,2 +1,1 @@
-declare const ThemeLibrary: any;
-export default ThemeLibrary;
+export { Theme } from './theme';

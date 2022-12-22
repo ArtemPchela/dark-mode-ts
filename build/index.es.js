@@ -15,11 +15,5 @@ var Theme = function (_a) {
     return (React.createElement("div", { className: myClass, onClick: toggleTheme }, theme === 'dark' ? (React.createElement("img", { src: darkIcon, alt: altDark, width: imgWidth, height: imgHeight })) : (React.createElement("img", { src: lightIcon, alt: altLight, width: imgWidth, height: imgHeight }))));
 };
 
-var ThemeLibrary = function () {
-    return {
-        Theme: Theme
-    };
-};
-
-export { ThemeLibrary as default };
+export { Theme };
 //# sourceMappingURL=index.es.js.map

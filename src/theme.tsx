@@ -11,7 +11,7 @@ interface ThemeProps {
 
 type Theme = 'dark' | 'light'
 
-const Theme = ({ darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass }: ThemeProps) => {
+export const Theme = ({ darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass }: ThemeProps) => {
   const themeFromLocalStorage = localStorage.getItem('theme')
   const defaultTheme =
     themeFromLocalStorage === 'light' || themeFromLocalStorage === 'dark' ? themeFromLocalStorage : 'light'
@@ -36,5 +36,3 @@ const Theme = ({ darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, my
     </div>
   )
 }
-
-export default Theme
