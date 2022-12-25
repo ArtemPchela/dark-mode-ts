@@ -1,4 +1,4 @@
-# dark-mode-react
+# dark-mode-ts
 
 [![Npm package version](https://badgen.net/npm/v/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
 [![Npm package total downloads](https://badgen.net/npm/dt/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
