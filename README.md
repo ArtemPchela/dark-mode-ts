@@ -17,8 +17,6 @@
     <li>you have total control with styles - css, scss, sass, tailwind ui.</li>
 </ul>
 
-#### dark-mode-ts you have total control with styles - css, scss, sass, tailwind ui.
-
 Don't forget about ⭐ [GitHub](https://github.com/ArtemPchela/dark-mode-ts)
 
 ```jsx
