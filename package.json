@@ -1,6 +1,6 @@
 {
   "name": "dark-mode-ts",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "React TypeScript dark mode",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -17,13 +17,22 @@
   },
   "keywords": [
     "dark-mode-ts",
+    "dark-mode-vite",
+    "color",
     "darkmode",
     "dark",
     "light",
     "react",
     "react hooks",
     "react-typescript",
-    "npm"
+    "npm",
+    "dark-light-mode",
+    "swith",
+    "theme-swither",
+    "toggle",
+    "theme-toggle",
+    "vite-theme-toggle",
+    "vite-typescript"
   ],
   "author": "Artsiom Pchaliankou",
   "license": "MIT",
