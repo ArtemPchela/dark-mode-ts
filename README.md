@@ -6,20 +6,24 @@
 [![Npm package daily downloads](https://badgen.net/npm/dd/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
 [![Npm package license](https://badgen.net/npm/license/lodash)](https://npmjs.com/package/dark-mode-ts)
 
-> NOTE: dark-mode-ts based on TypeScript, "react": "^18.2.0" and "react-dom": "^18.2.0".
-> Works with React, React Vite. 
-> The user setting persists to `localStorage`.
+> NOTE:
+> 
+> dark-mode-ts based on TypeScript, "react": "^18.2.0" and "react-dom": "^18.2.0".
+> 
+> Works with React, **React TypeScript**, **React Vite**, **React Vite TypeScript**. 
+> 
+> The user setting persists to **`localStorage`**.
 
 ### dark-mode-ts:
 
 <ul>
-    <li>a minimal lightweight component for your React projects.</li>
+    <li>a minimal lightweight component for your React projects</li>
     <li>quickly setup</li>
     <li>has a small bundle size and zero dependencies</li>
     <li>you have total control with styles - css, scss, sass, tailwind ui.</li>
 </ul>
 
-Don't forget about ⭐ [GitHub](https://github.com/ArtemPchela/dark-mode-ts)
+Like it, ⭐ it [GitHub](https://github.com/ArtemPchela/dark-mode-ts)
 
 ```jsx
 import React from 'react';
