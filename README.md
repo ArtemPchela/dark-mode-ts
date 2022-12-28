@@ -4,6 +4,8 @@
 [![Npm package total downloads](https://badgen.net/npm/dt/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
 [![Npm package daily downloads](https://badgen.net/npm/dw/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
 [![Npm package daily downloads](https://badgen.net/npm/dd/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
+[![Npm package license](https://badgen.net/npm/license/lodash)](https://npmjs.com/package/dark-mode-ts)
+
 > NOTE: dark-mode-ts based on TypeScript, "react": "^18.2.0" and "react-dom": "^18.2.0".
 > Works with React, React Vite. 
 > The user setting persists to `localStorage`.
