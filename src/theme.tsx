@@ -13,10 +13,15 @@ interface ThemeProps {
 type Theme = 'dark' | 'light'
 
 export const Theme = ({darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass}: ThemeProps) => {
-    const themeFromLocalStorage = localStorage.getItem('theme')
-    const defaultTheme =
-        themeFromLocalStorage === 'light' || themeFromLocalStorage === 'dark' ? themeFromLocalStorage : 'light'
-    const [theme, setTheme] = useState<Theme>(defaultTheme)
+    const [theme, setTheme] = useState<Theme>('light')
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const themeFromLocalStorage = localStorage.getItem('theme')
+            const defaultTheme = themeFromLocalStorage === 'light' || themeFromLocalStorage === 'dark' ? themeFromLocalStorage : 'light'
+            setTheme(defaultTheme)
+        }
+    }, [])
 
     const toggleTheme = () => {
         setTheme(theme === 'light' ? 'dark' : 'light')
