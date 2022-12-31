@@ -1,10 +1,16 @@
 # dark-mode-ts
 
+[![Npm package total](https://badgen.net/npm/dt/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
+[![Npm package version](https://badgen.net/npm/v/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
+[![Npm package license](https://badgen.net/npm/license/lodash)](https://npmjs.com/package/dark-mode-ts)
+[![Npm package daily downloads](https://badgen.net/npm/dw/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
+[![Npm package daily downloads](https://badgen.net/npm/dd/dark-mode-ts)](https://npmjs.com/package/dark-mode-ts)
+
 > NOTE:
 > 
 > dark-mode-ts based on TypeScript, "react": "^18.2.0" and "react-dom": "^18.2.0".
 > 
-> Works with **React**, **Next**, **React TypeScript**, **React Vite**, **React Vite TypeScript**. 
+> Works with **React**, **React TypeScript**, **React Vite**, **React Vite TypeScript**. 
 > 
 > The user setting persists to **`localStorage`**.
 
