@@ -1,6 +1,6 @@
 {
   "name": "dark-mode-ts",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "React TypeScript dark mode",
   "main": "build/index.js",
   "module": "build/index.es.js",

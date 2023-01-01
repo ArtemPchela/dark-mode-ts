@@ -10,14 +10,9 @@ var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 var Theme = function (_a) {
     var darkIcon = _a.darkIcon, lightIcon = _a.lightIcon, altDark = _a.altDark, altLight = _a.altLight, imgWidth = _a.imgWidth, imgHeight = _a.imgHeight, myClass = _a.myClass;
-    var _b = React.useState('light'), theme = _b[0], setTheme = _b[1];
-    React.useEffect(function () {
-        if (typeof window !== 'undefined') {
-            var themeFromLocalStorage = localStorage.getItem('theme');
-            var defaultTheme = themeFromLocalStorage === 'light' || themeFromLocalStorage === 'dark' ? themeFromLocalStorage : 'light';
-            setTheme(defaultTheme);
-        }
-    }, []);
+    var themeFromLocalStorage = localStorage.getItem('theme');
+    var defaultTheme = themeFromLocalStorage === 'light' || themeFromLocalStorage === 'dark' ? themeFromLocalStorage : 'light';
+    var _b = React.useState(defaultTheme), theme = _b[0], setTheme = _b[1];
     var toggleTheme = function () {
         setTheme(theme === 'light' ? 'dark' : 'light');
     };
